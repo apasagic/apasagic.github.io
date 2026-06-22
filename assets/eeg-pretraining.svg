@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#fffdf1"/>
+      <stop offset="1" stop-color="#f6f2df"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#f6a13a"/>
+      <stop offset="1" stop-color="#f5c25b"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#111820"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#f5a83d"/>
+    </marker>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#fffaf0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fffaf0" stop-opacity="0.88"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="36" fill="url(#bg)"/>
+  <text x="28" y="44" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#111820">a. Pre-training</text>
+  <g stroke="#ff6d00" stroke-width="3" fill="none">
+    <path d="M26 130h20l10-10 10 26 12-38 18 42 22-26 18 18h40"/>
+    <path d="M250 130h34l10-16 16 58 24-92 28 76 25-40 25 30h42"/>
+    <path d="M250 246h34l16-14 18 36 24-48 24 72 32-48 26 24h40"/>
+    <path d="M250 340h30l12-18 20 54 24-78 32 68 24-44 28 34h42"/>
+  </g>
+  <g fill="#fff" stroke="#111820" stroke-width="3">
+    <rect x="8" y="106" width="132" height="48" rx="6"/>
+    <rect x="8" y="282" width="132" height="48" rx="6"/>
+  </g>
+  <text x="250" y="92" font-family="Georgia, serif" font-size="34" font-style="italic">xᵢ</text>
+  <text x="250" y="180" font-family="Georgia, serif" font-size="34" font-style="italic">xᵢ′</text>
+  <text x="250" y="286" font-family="Georgia, serif" font-size="34" font-style="italic">xⱼ</text>
+  <text x="110" y="198" font-family="Inter, Arial, sans-serif" font-size="18">Augmentation</text>
+  <g stroke="#111820" stroke-width="3" marker-end="url(#arrow)" fill="none">
+    <path d="M138 130H236"/><path d="M138 306H236"/><path d="M460 130H530"/><path d="M460 246H530"/><path d="M460 340H530"/>
+  </g>
+  <g fill="#fff" stroke="#4b4b4b" stroke-width="4">
+    <rect x="532" y="84" width="160" height="260"/>
+  </g>
+  <text x="612" y="118" font-family="Inter, Arial, sans-serif" font-size="28" text-anchor="middle">Encoder</text>
+  <g stroke="#4b4b4b" stroke-width="2" fill="#fff">
+    <circle cx="568" cy="172" r="14"/><circle cx="568" cy="226" r="14"/><circle cx="568" cy="282" r="14"/>
+    <circle cx="615" cy="150" r="14"/><circle cx="615" cy="205" r="14"/><circle cx="615" cy="260" r="14"/><circle cx="615" cy="314" r="14"/>
+    <circle cx="660" cy="172" r="14"/><circle cx="660" cy="226" r="14"/><circle cx="660" cy="282" r="14"/>
+    <path d="M582 172L601 150M582 172L601 205M582 226L601 205M582 226L601 260M582 282L601 260M582 282L601 314"/>
+    <path d="M629 150L646 172M629 205L646 172M629 205L646 226M629 260L646 226M629 260L646 282M629 314L646 282"/>
+  </g>
+  <g stroke="#111820" stroke-width="3" marker-end="url(#arrow)" fill="none">
+    <path d="M692 130H742"/><path d="M692 246H742"/><path d="M692 340H742"/>
+  </g>
+  <g>
+    <rect x="744" y="108" width="150" height="36" rx="8" fill="url(#orange)" stroke="#555" stroke-width="4"/>
+    <rect x="744" y="224" width="150" height="36" rx="8" fill="url(#orange)" stroke="#555" stroke-width="4"/>
+    <rect x="744" y="318" width="150" height="36" rx="8" fill="url(#orange)" stroke="#555" stroke-width="4"/>
+    <g stroke="#111820" stroke-width="4"><path d="M778 108v36M822 108v36M862 108v36M778 224v36M822 224v36M862 224v36M778 318v36M822 318v36M862 318v36"/></g>
+  </g>
+  <text x="805" y="76" font-family="Georgia, serif" font-size="34" font-style="italic">hᵢ</text>
+  <text x="805" y="208" font-family="Georgia, serif" font-size="34" font-style="italic">hᵢ′</text>
+  <text x="805" y="302" font-family="Georgia, serif" font-size="34" font-style="italic">hⱼ</text>
+  <g fill="none" stroke="#111820" stroke-width="3" stroke-dasharray="8 8">
+    <path d="M930 128C1002 128 1010 220 930 238" marker-end="url(#arrow)"/>
+    <path d="M930 238C1032 238 1048 330 930 338" marker-end="url(#arrow)"/>
+  </g>
+  <text x="918" y="204" font-family="Inter, Arial, sans-serif" font-size="28">Close</text>
+  <text x="1035" y="296" font-family="Inter, Arial, sans-serif" font-size="28">Far</text>
+  <path d="M990 170L1090 170L1090 136L1182 210L1090 284L1090 250L990 250Z" fill="#f5a83d" fill-opacity="0.55"/>
+  <text x="1120" y="210" font-family="Inter, Arial, sans-serif" font-size="28" text-anchor="middle">Contrastive</text>
+  <text x="1120" y="242" font-family="Inter, Arial, sans-serif" font-size="28" text-anchor="middle">Loss</text>
+  <path d="M590 84V28H1138V380" stroke="#111820" stroke-width="3" stroke-dasharray="8 8" fill="none" marker-end="url(#arrow)"/>
+  <text x="1080" y="64" font-family="Inter, Arial, sans-serif" font-size="30">Update</text>
+  <rect width="1200" height="420" fill="url(#fade)"/>
+</svg>

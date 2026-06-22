@@ -1,0 +1,4 @@
+server.*.log
+assets/*.html
+assets/readme-images.json
+assets/cartpole-readme.md

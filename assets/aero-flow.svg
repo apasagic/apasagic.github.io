@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#eaf4f0"/>
+      <stop offset="0.46" stop-color="#5f95a7"/>
+      <stop offset="1" stop-color="#24465c"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.82"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="360" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.68" stroke-width="4" stroke-linecap="round">
+    <path d="M-40 86C150 52 268 76 396 128C548 190 684 172 948 112"/>
+    <path d="M-40 136C166 102 298 126 414 164C548 208 706 220 948 162"/>
+    <path d="M-40 194C174 170 282 190 418 218C594 254 720 260 948 214"/>
+    <path d="M-40 258C154 244 282 244 430 260C602 278 742 296 948 270"/>
+  </g>
+  <path d="M196 183C314 108 478 98 706 166C604 204 392 226 196 183Z" fill="#ffffff" fill-opacity="0.86"/>
+  <path d="M205 183C356 165 512 158 690 166" fill="none" stroke="#20313a" stroke-opacity="0.45" stroke-width="4"/>
+  <circle cx="714" cy="166" r="9" fill="#d49a2a"/>
+  <text x="58" y="54" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#172026">Aerodynamics and CFD</text>
+  <text x="58" y="335" font-family="Inter, Arial, sans-serif" font-size="18" fill="#20313a">airfoil flow, simulation, numerical modeling</text>
+  <rect width="900" height="360" fill="url(#fade)"/>
+</svg>

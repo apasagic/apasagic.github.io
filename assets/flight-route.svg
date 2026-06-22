@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#20334a"/>
+      <stop offset="0.52" stop-color="#377885"/>
+      <stop offset="1" stop-color="#c7823f"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.82"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="360" fill="url(#bg)"/>
+  <path d="M80 270C170 164 260 228 344 150C444 58 552 112 646 78C734 46 782 96 842 58" fill="none" stroke="#ffffff" stroke-opacity="0.78" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 20"/>
+  <g fill="#ffffff">
+    <circle cx="80" cy="270" r="13"/>
+    <circle cx="344" cy="150" r="13"/>
+    <circle cx="646" cy="78" r="13"/>
+    <circle cx="842" cy="58" r="13"/>
+  </g>
+  <path d="M520 184L594 150L542 214L532 188L520 184Z" fill="#172026" fill-opacity="0.72"/>
+  <g stroke="#ffffff" stroke-opacity="0.18" stroke-width="2">
+    <path d="M0 92H900M0 184H900M0 276H900"/>
+    <path d="M120 0V360M300 0V360M480 0V360M660 0V360M840 0V360"/>
+  </g>
+  <text x="58" y="54" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Flight finder</text>
+  <text x="58" y="335" font-family="Inter, Arial, sans-serif" font-size="18" fill="#ffffff" fill-opacity="0.82">routes, data collection, automation</text>
+  <rect width="900" height="360" fill="url(#fade)"/>
+</svg>

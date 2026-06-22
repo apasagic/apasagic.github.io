@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#ffb35b"/>
+      <stop offset="0.18" stop-color="#d74677"/>
+      <stop offset="0.42" stop-color="#5d2a82"/>
+      <stop offset="0.72" stop-color="#100820"/>
+      <stop offset="1" stop-color="#02030a"/>
+    </linearGradient>
+    <linearGradient id="bottomfade" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#fffaf0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fffaf0" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="420" fill="#f8f6ef"/>
+  <rect x="76" y="54" width="780" height="286" fill="#03030a"/>
+  <g opacity="0.96">
+    <rect x="76" y="54" width="780" height="286" fill="url(#fade)"/>
+    <g fill="#02030a" opacity="0.8">
+      <rect x="330" y="54" width="30" height="286"/><rect x="386" y="54" width="42" height="286"/>
+      <rect x="486" y="54" width="72" height="286"/><rect x="594" y="54" width="98" height="286"/>
+      <rect x="706" y="54" width="150" height="286"/>
+    </g>
+    <g stroke="#0b0718" stroke-width="2" opacity="0.62">
+      <path d="M76 78H856M76 102H856M76 126H856M76 150H856M76 174H856M76 198H856M76 222H856M76 246H856M76 270H856M76 294H856M76 318H856"/>
+    </g>
+    <g stroke="#ffb25b" stroke-opacity="0.42" stroke-width="2">
+      <path d="M78 316C205 314 302 312 420 322C512 330 650 330 855 334"/>
+      <path d="M78 294C190 292 250 298 340 306C420 314 560 326 854 328"/>
+    </g>
+    <g stroke="#ff6a72" stroke-opacity="0.5" stroke-width="2">
+      <path d="M80 82C178 86 250 94 325 112C410 132 510 176 856 250"/>
+      <path d="M80 138C178 140 250 154 340 188C430 224 554 278 856 310"/>
+    </g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#111820">
+    <text x="430" y="32" font-size="22" text-anchor="middle">Spectrogram</text>
+    <text x="420" y="394" font-size="17" text-anchor="middle">Time (s)</text>
+    <text x="24" y="210" font-size="17" transform="rotate(-90 24 210)" text-anchor="middle">Frequency (Hz)</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#111820" font-size="14">
+    <text x="70" y="364">0</text><text x="398" y="364">1</text><text x="852" y="364">2</text>
+    <text x="30" y="330">0</text><text x="22" y="230">5000</text><text x="14" y="74">10000</text>
+  </g>
+  <rect x="905" y="54" width="18" height="286" fill="url(#fade)"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#111820" font-size="15">
+    <text x="934" y="64">+0 dB</text><text x="934" y="104">-10 dB</text><text x="934" y="144">-20 dB</text>
+    <text x="934" y="184">-30 dB</text><text x="934" y="224">-40 dB</text><text x="934" y="264">-50 dB</text>
+    <text x="934" y="304">-60 dB</text><text x="934" y="340">-80 dB</text>
+  </g>
+  <rect width="1000" height="420" fill="url(#bottomfade)"/>
+</svg>

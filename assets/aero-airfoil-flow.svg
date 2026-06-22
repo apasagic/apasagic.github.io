@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#fbfbf7"/>
+      <stop offset="0.55" stop-color="#e7f1f3"/>
+      <stop offset="1" stop-color="#f7f5ed"/>
+    </linearGradient>
+    <radialGradient id="wake" cx="50%" cy="50%" r="60%">
+      <stop stop-color="#e64b3c" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#e64b3c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#fffaf0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fffaf0" stop-opacity="0.88"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="420" fill="url(#bg)"/>
+  <g stroke="#26333a" stroke-opacity="0.22" stroke-width="2" fill="none">
+    <path d="M42 80C214 68 305 105 417 143C536 184 662 188 952 154"/>
+    <path d="M42 116C230 108 325 132 438 160C562 190 676 206 952 190"/>
+    <path d="M42 154C236 150 334 160 450 174C574 190 694 212 952 226"/>
+    <path d="M42 194C234 196 338 194 462 194C596 196 718 216 952 262"/>
+    <path d="M42 234C236 244 338 232 462 218C594 206 724 222 952 296"/>
+    <path d="M42 274C226 294 330 272 452 242C584 210 716 218 952 324"/>
+  </g>
+  <g stroke="#111820" stroke-width="4" stroke-linecap="round">
+    <path d="M112 72V336M238 68V338M364 70V334M490 82V326M616 96V316M742 110V302M868 124V290" opacity="0.42"/>
+  </g>
+  <g fill="#111820">
+    <circle cx="112" cy="72" r="4"/><circle cx="112" cy="336" r="4"/>
+    <circle cx="238" cy="68" r="4"/><circle cx="238" cy="338" r="4"/>
+    <circle cx="364" cy="70" r="4"/><circle cx="364" cy="334" r="4"/>
+    <circle cx="490" cy="82" r="4"/><circle cx="490" cy="326" r="4"/>
+    <circle cx="616" cy="96" r="4"/><circle cx="616" cy="316" r="4"/>
+    <circle cx="742" cy="110" r="4"/><circle cx="742" cy="302" r="4"/>
+    <circle cx="868" cy="124" r="4"/><circle cx="868" cy="290" r="4"/>
+  </g>
+  <ellipse cx="428" cy="202" rx="210" ry="70" fill="#86c7de" fill-opacity="0.28"/>
+  <ellipse cx="284" cy="192" rx="52" ry="48" fill="url(#wake)"/>
+  <ellipse cx="720" cy="212" rx="78" ry="52" fill="url(#wake)"/>
+  <path d="M250 204C338 134 542 145 750 194C628 218 422 239 250 204Z" fill="#f4c62d" stroke="#172026" stroke-width="4"/>
+  <path d="M253 204C412 188 560 185 738 194" fill="none" stroke="#172026" stroke-opacity="0.34" stroke-width="3"/>
+  <rect width="1000" height="420" fill="url(#fade)"/>
+</svg>
