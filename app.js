@@ -93,7 +93,7 @@ const projects = [
     year: "Planned",
     status: "Planned case study",
     visual: "visual-imu",
-    image: "./assets/isaac-lab-quadrupeds.svg",
+    image: "",
     url: "https://github.com/apasagic/reinforcement-learning",
     summary:
       "A future robotics/control-oriented RL section using PPO in Isaac Lab, positioned as the bridge from classic algorithms to modern simulation stacks.",
@@ -178,7 +178,7 @@ const projects = [
     year: "2024",
     status: "Implemented",
     visual: "visual-aero",
-    image: "./assets/aero-airfoil-flow.svg",
+    image: "./assets/airfoil.jpg",
     url: "https://github.com/apasagic/Aerodynamics-Fluid-dynamics",
     summary:
       "Matlab and Python scripts related to aerodynamic simulations, computational fluid dynamics, and FEM.",
