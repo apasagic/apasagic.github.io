@@ -93,30 +93,13 @@ const projects = [
     year: "Planned",
     status: "Planned case study",
     visual: "visual-imu",
-    image: "./assets/imu-fusion.svg",
+    image: "./assets/isaac-lab-quadrupeds.svg",
     url: "https://github.com/apasagic/reinforcement-learning",
     summary:
       "A future robotics/control-oriented RL section using PPO in Isaac Lab, positioned as the bridge from classic algorithms to modern simulation stacks.",
     detail:
       "This can show how your controls background transfers to robot or physical-system RL: reward design, trajectory planning, constraints, and sim-to-real awareness.",
     tags: ["PPO", "Isaac Lab", "Robotics", "Control"]
-  },
-  {
-    id: "frozen-lake-q-learning",
-    title: "Frozen Lake and Tabular Q-Learning",
-    repo: "reinforcement-learning",
-    category: "rl",
-    language: "Python",
-    year: "2026",
-    status: "Learning module",
-    visual: "visual-map",
-    image: "./assets/flight-route.svg",
-    url: "https://github.com/apasagic/reinforcement-learning",
-    summary:
-      "A compact entry point for value iteration, Q-tables, exploration schedules, and the intuition behind bootstrapped value learning.",
-    detail:
-      "This is useful as the first chapter of the RL track: small enough to explain fully, but connected to the later DQN implementation.",
-    tags: ["Q-learning", "Tabular RL", "Exploration", "Gymnasium"]
   },
   {
     id: "rnn-system-identification",
@@ -178,7 +161,7 @@ const projects = [
     year: "2026",
     status: "Implemented",
     visual: "visual-audio",
-    image: "./assets/audio-spectrogram.svg",
+    image: "./assets/audio-classification-3.jpg",
     url: "https://github.com/apasagic/audio-classification",
     summary:
       "Notebook-based classification work around audio features, model training, and evaluation.",

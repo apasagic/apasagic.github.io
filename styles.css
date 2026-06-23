@@ -144,7 +144,7 @@ button {
   inset: 0;
   z-index: 0;
   background:
-    linear-gradient(180deg, color-mix(in srgb, var(--bg) 2%, transparent) 0%, color-mix(in srgb, var(--paper) 52%, transparent) 48%, color-mix(in srgb, var(--paper) 92%, transparent) 72%, var(--bg) 100%),
+    linear-gradient(180deg, color-mix(in srgb, var(--bg) 2%, transparent) 0%, color-mix(in srgb, var(--paper) 34%, transparent) 58%, color-mix(in srgb, var(--paper) 74%, transparent) 80%, color-mix(in srgb, var(--bg) 84%, transparent) 100%),
     linear-gradient(90deg, color-mix(in srgb, var(--bg) 48%, transparent) 0%, color-mix(in srgb, var(--bg) 20%, transparent) 58%, color-mix(in srgb, var(--bg) 8%, transparent) 100%),
     url("./assets/hero-controls-ml-preview.png") center / cover no-repeat;
 }
