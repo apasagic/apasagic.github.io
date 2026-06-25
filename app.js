@@ -180,6 +180,8 @@ const projects = [
     visual: "visual-aero",
     image: "./assets/airfoil.jpg",
     url: "https://github.com/apasagic/Aerodynamics-Fluid-dynamics",
+    notebookUrl:
+      "https://colab.research.google.com/drive/1DxAy4Xfq3bBsCHlcfgxL1kW1iMwizsEV#scrollTo=2XrXWqRfQ6yw",
     summary:
       "Matlab and Python scripts related to aerodynamic simulations, computational fluid dynamics, and FEM.",
     detail:
@@ -289,6 +291,9 @@ function renderDetail() {
   if (!detail) return;
   const project = projects.find((item) => item.id === activeProject) || projects[0];
   const category = categories[project.category] || categories.all;
+  const notebookHref = project.notebookUrl || "#notebooks";
+  const notebookLabel = project.notebookUrl ? "Open notebook" : "Notebook slot";
+  const externalAttrs = 'target="_blank" rel="noopener noreferrer"';
   detail.innerHTML = `
     <div>
       <span class="detail-kicker">${category.label} / ${project.status}</span>
@@ -305,8 +310,8 @@ function renderDetail() {
         training or experiment setup, results, limitations, and next steps.
       </p>
       <div class="detail-actions">
-        <a href="${project.url}">Repository</a>
-        <a href="#notebooks">Notebook slot</a>
+        <a href="${project.url}" ${externalAttrs}>Repository</a>
+        <a href="${notebookHref}" ${project.notebookUrl ? externalAttrs : ""}>${notebookLabel}</a>
         <a href="#writing">Article slot</a>
       </div>
     </div>
