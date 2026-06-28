@@ -691,6 +691,16 @@ h3 {
   font-weight: 700;
 }
 
+.open-link {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.open-link:hover,
+.open-link:focus-visible {
+  color: var(--ink);
+}
+
 .detail-kicker {
   color: var(--accent-2);
   font-size: 0.8rem;

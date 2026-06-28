@@ -262,7 +262,7 @@ function renderProjects() {
           </div>
           <div class="card-foot">
             <span class="repo-link">${project.repo}</span>
-            <span aria-hidden="true">Open</span>
+            <a class="open-link" href="${project.url}" target="_blank" rel="noopener noreferrer" aria-label="Open ${project.title} repository">Open</a>
           </div>
         </article>
       `
@@ -327,6 +327,7 @@ document.querySelectorAll(".filter").forEach((button) => {
 });
 
 grid.addEventListener("click", (event) => {
+  if (event.target.closest("a")) return;
   const card = event.target.closest(".project-card");
   if (!card) return;
   activeProject = card.dataset.project;
